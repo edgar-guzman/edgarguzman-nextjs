@@ -1,0 +1,60 @@
+// Edgar Guzman
+
+$zero: 0;
+$gutter: 0 0;
+$border_box: border-box;
+$inherit: inherit;
+$normal: normal;
+$none: none;
+$hundred: 100%;
+$line-16: 1.6;
+$black: #000000;
+$yellow: #ffff00;
+$white: #ffffff;
+
+// $font: $inherit;
+$color: $white;
+// $font-weight: $normal;
+// $font-size: $hundred;
+$background: $black;
+
+*,
+*::before,
+*::after,
+html,
+body,
+a {
+    border: $zero;
+    outline: $zero;
+    margin: $gutter;
+    padding: $gutter;
+    box-sizing: $border_box;
+
+    // font: $inherit;
+    color: $inherit;
+    font-weight: $normal;
+    font-size: $hundred;
+    background-color: $inherit;
+}
+
+*,
+*::before,
+*::after {
+    margin: $gutter;
+    padding: $gutter;
+    box-sizing: $border_box;
+}
+
+html {
+    font-size: $hundred;
+    // line-height: $line-16;
+}
+
+body {
+    line-height: $line-16;
+}
+
+a {
+    color: $inherit;
+    text-decoration: $none;
+}

@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+config/configuration.js
+config/configuration.env
+config/configuration.json
+config/configuration.yaml
+config/configuration.yml
+package-lock.json
+# .prettierignore
+yarn.lock
+.next
+
+public/wireframe.copy.css
+views/newsroom/markdown.md
+router.copyed.js
+router.note.js
+markdown.md
